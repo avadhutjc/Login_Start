@@ -1,0 +1,6 @@
+com/masai/help/BuildConfig.java
+ com.masai.help.BuildConfig
+com/masai/help/SecondActivity.java
+ com.masai.help.SecondActivity
+com/masai/help/MainActivity.java
+ com.masai.help.MainActivity

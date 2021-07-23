@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#e7e7e7"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Help"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/back_button" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Queries"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:padding="5dp"
+            android:textSize="16dp"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:onClick="btn1tv1"
+            android:text="@string/Q1"
+            android:layout_marginTop="25dp"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:gravity="center|start"
+            android:text="@string/text1"
+            android:layout_marginTop="370dp"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button1"
+            android:gravity="start|center"
+            android:onClick="btn2tv2"
+            android:text="@string/Q2"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="350dp"
+            android:gravity="center|start"
+            android:text="@string/text2"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button2"
+            android:gravity="start|center"
+            android:onClick="btn3tv3"
+            android:text="@string/Q3"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/text3"
+            android:gravity="center|start"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button3"
+            android:gravity="start|center"
+            android:onClick="btn4tv4"
+            android:text="@string/Q4"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center|start"
+            android:text="@string/text4"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button4"
+            android:gravity="start|center"
+            android:onClick="btn5tv5"
+            android:text="@string/Q5"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/text5"
+            android:gravity="center|start"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button5"
+            android:gravity="start|center"
+            android:text="@string/Q6"
+            android:onClick="btn6tv6"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/text6"
+            android:gravity="center|start"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button6"
+            android:gravity="start|center"
+            android:onClick="btn7tv7"
+            android:text="@string/Q7"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="335dp"
+            android:gravity="center|start"
+            android:text="@string/text7"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
