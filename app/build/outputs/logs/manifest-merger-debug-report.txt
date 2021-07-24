@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/10046aad9e73cbf22653afacdcab8838/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/0db51bfebffdf02cab6c3906aa1040ae/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/77c7b97873973e149b09819f46c0a153/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
@@ -39,25 +39,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shubhamsmac/.gradl
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/b93e2b8a7319b8231fdc1936a598b860/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/f8503f66578d12caa389b09e1e5eca48/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/8b1826e082b884f9fc593d27a9580a45/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:5:5-20:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/10046aad9e73cbf22653afacdcab8838/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/10046aad9e73cbf22653afacdcab8838/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/shubhamsmac/.gradle/caches/transforms-2/files-2.1/0db51bfebffdf02cab6c3906aa1040ae/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -81,19 +81,19 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shub
 	android:theme
 		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:11:9-42
 activity#com.masai.help.MainActivity
-ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml

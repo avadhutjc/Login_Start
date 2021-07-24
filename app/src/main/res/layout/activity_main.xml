@@ -12,16 +12,15 @@
         android:id="@+id/tvLogin"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="start|center"
         android:background="#e7e7e7"
-        android:foregroundGravity="center"
         android:gravity="center_horizontal"
         android:padding="10dp"
         android:text="Help"
+        android:drawableStart="@drawable/back_button"
         android:textColor="@color/black"
         android:textSize="30sp"
-        android:textStyle="bold"
-        app:drawableStartCompat="@drawable/back_button" />
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -30,22 +29,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:padding="5dp"
             android:text="Top Queries"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:layout_marginStart="10dp"
-            android:padding="5dp"
-            android:textSize="16dp"
-            />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:gravity="start|center"
             android:onClick="btn1tv1"
             android:text="@string/Q1"
-            android:layout_marginTop="25dp"
             android:textAllCaps="false"
             android:textSize="15sp" />
 
@@ -54,9 +53,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_marginTop="370dp"
             android:gravity="center|start"
             android:text="@string/text1"
-            android:layout_marginTop="370dp"
             android:textSize="15sp"
             android:visibility="gone" />
 
@@ -65,6 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/button1"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:gravity="start|center"
             android:onClick="btn2tv2"
             android:text="@string/Q2"
@@ -87,6 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/button2"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:gravity="start|center"
             android:onClick="btn3tv3"
             android:text="@string/Q3"
@@ -99,8 +100,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginTop="40dp"
-            android:text="@string/text3"
             android:gravity="center|start"
+            android:text="@string/text3"
             android:textSize="20sp"
             android:visibility="gone" />
 
@@ -109,6 +110,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/button3"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:gravity="start|center"
             android:onClick="btn4tv4"
             android:text="@string/Q4"
@@ -131,6 +133,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/button4"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:gravity="start|center"
             android:onClick="btn5tv5"
             android:text="@string/Q5"
@@ -143,8 +146,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginTop="40dp"
-            android:text="@string/text5"
             android:gravity="center|start"
+            android:text="@string/text5"
             android:textSize="20sp"
             android:visibility="gone" />
 
@@ -153,9 +156,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/button5"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:gravity="start|center"
-            android:text="@string/Q6"
             android:onClick="btn6tv6"
+            android:text="@string/Q6"
             android:textAllCaps="false"
             android:textSize="15sp" />
 
@@ -165,8 +169,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginTop="40dp"
-            android:text="@string/text6"
             android:gravity="center|start"
+            android:text="@string/text6"
             android:textSize="20sp"
             android:visibility="gone" />
 
@@ -175,6 +179,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/button6"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:gravity="start|center"
             android:onClick="btn7tv7"
             android:text="@string/Q7"

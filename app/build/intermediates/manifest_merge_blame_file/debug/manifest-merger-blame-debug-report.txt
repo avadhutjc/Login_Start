@@ -11,7 +11,7 @@
 9-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:5:5-19:19
+11-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:5:5-20:19
 12        android:allowBackup="true"
 12-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,17 +29,17 @@
 20        android:theme="@style/Theme.Help" >
 20-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:11:9-42
 21        <activity android:name="com.masai.help.MainActivity" >
-21-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:12:9-18:20
-21-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:12:19-47
+21-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:13:9-19:20
+21-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:13:19-47
 22            <intent-filter>
-22-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:13:13-17:29
+22-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:14:13-18:29
 23                <action android:name="android.intent.action.MAIN" />
-23-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:14:17-69
-23-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:14:25-66
+23-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:15:17-69
+23-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:15:25-66
 24
 25                <category android:name="android.intent.category.LAUNCHER" />
-25-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:16:17-77
-25-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:16:27-74
+25-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:17:17-77
+25-->/Users/shubhamsmac/Help/app/src/main/AndroidManifest.xml:17:27-74
 26            </intent-filter>
 27        </activity>
 28    </application>

@@ -12,10 +12,6 @@
         "source": "/Users/shubhamsmac/Help/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/shubhamsmac/Help/app/build/intermediates/res/merged/debug/drawable_img1.png.flat",
-        "source": "/Users/shubhamsmac/Help/app/src/main/res/drawable/img1.png"
-    },
-    {
         "merged": "/Users/shubhamsmac/Help/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/shubhamsmac/Help/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
@@ -68,7 +64,7 @@
         "source": "/Users/shubhamsmac/Help/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/shubhamsmac/Help/app/build/intermediates/res/merged/debug/layout_second_main.xml.flat",
-        "source": "/Users/shubhamsmac/Help/app/src/main/res/layout/second_main.xml"
+        "merged": "/Users/shubhamsmac/Help/app/build/intermediates/res/merged/debug/drawable_ic_baseline_keyboard_arrow_down_24.xml.flat",
+        "source": "/Users/shubhamsmac/Help/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml"
     }
 ]

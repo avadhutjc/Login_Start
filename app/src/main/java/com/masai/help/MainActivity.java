@@ -27,12 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d("Lloyd","Oncreate Started");
+        Log.d("Debug","OnCreate Started");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        b7 = (Button) findViewById(R.id.button7);
-        t7 = (TextView) findViewById(R.id.textView7);
-        String text7 = b7.getText().toString();
 
         b1 = (Button) findViewById(R.id.button1);
         t1 = (TextView) findViewById(R.id.textView1);
@@ -58,18 +55,12 @@ public class MainActivity extends AppCompatActivity {
         t6 = (TextView)findViewById(R.id.textView6);
         String text6 = b6.getText().toString();
 
+        b7 = (Button) findViewById(R.id.button7);
+        t7 = (TextView) findViewById(R.id.textView7);
+        String text7 = b7.getText().toString();
+
     }
 
-    public void btn7tv7(View view) {
-        String text7 = b7.getText().toString();
-        if (text7.equals("Why should I download the nearbuy.com mobile app?")) {
-            t7.setVisibility(View.INVISIBLE);
-            b7.setText("Why should I download the nearbuy.com mobile app?  ");
-        } else if (text7.equals("Why should I download the nearbuy.com mobile app?  ")) {
-            t7.setVisibility(View.VISIBLE);
-            b7.setText("Why should I download the nearbuy.com mobile app?");
-        }
-    }
 
     public void btn1tv1(View view) {
         String text1 = b1.getText().toString();
@@ -84,12 +75,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void btn2tv2(View view) {
         String text2 = b2.getText().toString();
-        if (text2.equals("Why should I download the nearbuy.com mobile app?")) {
+        if (text2.equals("I have feedback or an idea to share, how do I share it?")) {
             t2.setVisibility(View.INVISIBLE);
-            b2.setText("Why should I download the nearbuy.com mobile app?  ");
-        } else if (text2.equals("Why should I download the nearbuy.com mobile app?  ")) {
+            b2.setText("I have feedback or an idea to share, how do I share it?  ");
+        } else if (text2.equals("I have feedback or an idea to share, how do I share it?  ")) {
             t2.setVisibility(View.VISIBLE);
-            b2.setText("Why should I download the nearbuy.com mobile app?");
+            b2.setText("I have feedback or an idea to share, how do I share it?");
         }
     }
 
@@ -134,6 +125,17 @@ public class MainActivity extends AppCompatActivity {
         } else if (text6.equals("How do I register myself on nearbuy.com?  ")){
             t6.setVisibility(View.VISIBLE);
             b6.setText("How do I register myself on nearbuy.com?");
+        }
+    }
+
+    public void btn7tv7(View view) {
+        String text7 = b7.getText().toString();
+        if (text7.equals("Why should I download the nearbuy.com mobile app?")) {
+            t7.setVisibility(View.INVISIBLE);
+            b7.setText("Why should I download the nearbuy.com mobile app?  ");
+        } else if (text7.equals("Why should I download the nearbuy.com mobile app?  ")) {
+            t7.setVisibility(View.VISIBLE);
+            b7.setText("Why should I download the nearbuy.com mobile app?");
         }
     }
 
